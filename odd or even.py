@@ -1,8 +1,7 @@
 
-a=int(input("Enter the Number:"))
-if(a<0):
- print("Invalid Input")
-elif(a%2==0):
- print("Even")
+ch=input("Enter a character:")
+if(ch=='A'or ch=='a'or ch=='E'or ch=='e'or ch=='I'or ch=='i' or ch=='O'or ch=='o'or ch=='u'or ch=='U'):
+    print("The letter u have entered is a VOWEL")
 else:
- print("odd")
+    print("The letter u have entered is a CONSONANT")
+    
