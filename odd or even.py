@@ -1,5 +1,5 @@
 a=int(input("enter the number:"))
-if(a%2==0):
-  print("even")
+if(a>0)and(a%2==0):
+    print("even")
 else:
-  print("odd")
+     print("invalid")
